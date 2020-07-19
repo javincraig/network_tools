@@ -7,7 +7,8 @@ username = input('Username: ')
 password = getpass(prompt='Password: ', stream=None)
 
 
-device_list_raw = """192.168.0.5"""
+device_list_raw = """192.168.0.5
+192.168.0.21"""
 
 def show_uptime():
     show_ver_uptime = conn.send_command("show version | inc uptime")
